@@ -63,7 +63,7 @@ public class Main {
                         System.out.println("O que deseja colocar à mais?");
                         ingrendienteNovoPizza = dado.nextLine();
                         pizza.buildPizza(ingrendienteNovoPizza);
-                        System.out.println("Ingrediente adicionado com sucesso\n");
+                        System.out.println("Ingrediente adicionado com sucesso: %s \n".formatted(ingrendienteNovoPizza));
                         try{
                             System.out.println("Entrando no forno, aguarde %d segundos".formatted(timer));
                             Thread.sleep(15 * 1000);
@@ -110,7 +110,7 @@ public class Main {
                         System.out.println("O que deseja colocar à mais?");
                         ingrendienteNovoPizza2 = dado.nextLine();
                         pizza.buildPizza(ingrendienteNovoPizza2);
-                        System.out.println("Ingrediente adicionado com sucesso\n");
+                        System.out.println("Ingrediente adicionado com sucesso: %s\n".formatted(ingrendienteNovoPizza2));
                         try{
                             System.out.println("Entrando no forno, aguarde %d segundos".formatted(timer));
                             Thread.sleep(15 * 1000);
@@ -157,7 +157,7 @@ public class Main {
                         System.out.println("O que deseja colocar à mais?");
                         ingrendienteNovoPizza3 = dado.nextLine();
                         pizza.buildPizza(ingrendienteNovoPizza3);
-                        System.out.println("Ingrediente adicionado com sucesso\n");
+                        System.out.println("Ingrediente adicionado com sucesso: %s\n".formatted(ingrendienteNovoPizza3));
                         try{
                             System.out.println("Entrando no forno, aguarde %d segundos".formatted(timer));
                             Thread.sleep(15 * 1000);
